@@ -1,0 +1,35 @@
+plugins {
+    id "us.kirchmeier.capsule" version "0.9.0"
+}
+
+apply plugin: 'scala'
+
+defaultTasks 'clean','fatCapsule'
+
+repositories {
+    mavenCentral()
+}
+
+version = '0.20141130'
+
+sourceSets {
+    main {
+        scala {
+            srcDirs = ['src']
+        }
+    }
+}
+
+sourceCompatibility = 1.7
+compileScala.options.encoding = 'UTF-8'
+
+task fatCapsule(type: FatCapsule) {
+    applicationClass 'Converter'
+}
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.3'
+    compile 'org.scalikejdbc:scalikejdbc_2.11:2.1.2'
+    compile 'com.fasterxml.jackson.module:jackson-module-scala_2.11:2.4.2'
+    runtime 'com.h2database:h2:1.4.181'
+}

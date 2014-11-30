@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="org.scalikejdbc:scalikejdbc_2.11:2.1.2" type="repository">
+    <properties maven-id="org.scalikejdbc:scalikejdbc_2.11:2.1.2" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalikejdbc/scalikejdbc_2.11/2.1.2/scalikejdbc_2.11-2.1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.2/scala-library-2.11.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalikejdbc/scalikejdbc-core_2.11/2.1.2/scalikejdbc-core_2.11-2.1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.4/joda-time-2.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/joda/joda-convert/1.7/joda-convert-1.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalikejdbc/scalikejdbc-interpolation_2.11/2.1.2/scalikejdbc-interpolation_2.11-2.1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalikejdbc/scalikejdbc-interpolation-core_2.11/2.1.2/scalikejdbc-interpolation-core_2.11-2.1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scalikejdbc/scalikejdbc-interpolation-macro_2.11/2.1.2/scalikejdbc-interpolation-macro_2.11-2.1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
